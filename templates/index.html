@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Inventario</title>
+<link rel="stylesheet" href="{{ url_for('static',
+filename='style.css') }}">
+</head>
+<body>
+<h1>Inventario de Equipos</h1>
+<table>
+<tr>
+<th>ID</th>
+<th>Nombre</th>
+<th>Marca</th>
+<th>Modelo</th>
+<th>Serie</th>
+<th>Estado</th>
+</tr>
+{% for equipo in equipos %}
+<tr>
+<td>{{ equipo[0] }}</td>
+<td>{{ equipo[1] }}</td>
+<td>{{ equipo[2] }}</td>
+<td>{{ equipo[3] }}</td>
+<td>{{ equipo[4] }}</td>
+<td>{{ equipo[5] }}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
