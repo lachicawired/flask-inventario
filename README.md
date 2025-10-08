@@ -2,7 +2,7 @@
 
 Proyecto de práctica que demuestra cómo crear una **página web local** usando **Flask** y **SQLite**, mostrando datos de un inventario en una tabla HTML.
 
-![Screenshot](images/Screenshot 2025-10-07 210302.png)
+![Screenshot](images/Screenshot2025-10-07210302.png)
 
 ---
 
